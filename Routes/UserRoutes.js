@@ -7,7 +7,7 @@ const { Usermodel } = require("../Modues/usermodel");
 
 
 const userRouter = express.Router();
-userRouter("/words",async(req,res)=>{
+userRouter.get("/words",async(req,res)=>{
   let words = ["asdsfd","fcefe","qwerwer","fghfghfg","klj;kj","rtyo",".m,n.m","MNwBOJr","bJARAKm","SzaVJEK","nWCpvTG","XSgVJHx","acnXnMC","TBNkJzf","PwgSGTw","brRgxkm","JOevYBO","PuDUPyO","KBnsdOb","xudvREX","eYmQSaS","JmzugBq","nZdURxF","wgzJyve","SPpqPEh","snhBjRc","KwuhCDR"]
 
     try {
